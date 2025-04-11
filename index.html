@@ -13,6 +13,23 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <style>
+    /* photo */
+   .circular-image {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    /* ipa */
+   .chinese-phonetic {
+      color: #999;
+      font-size: 18px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 <body>
 
@@ -44,35 +61,35 @@
   <div class="row">
     <!-- Contact Info on the Sidebar -->
     <div class="col-md-3 col-xs-12">
-      <div style="word-wrap: break-word; font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Wenjie Hua</b></div><br>
+      <div style="word-wrap: break-word; font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Wenjie Hua</b></div>
+      <div class="chinese-phonetic">文節(uən tɕiɛ) 華(xuᴀ)</div>
+      <!-- photo -->
+      <img class="circular-image img-responsive" src="photo.jpg" alt="sakura and I"><br>
       <div> <p>Email: wjhuah AT gmail DOT com<br> </div>
       <div style="margin-top:2%">
-        <dd><a href="#">Twitter</a></dd>
+        <dd><a href="https://x.com/hwj2022chinese">Twitter</a></dd>
       </div>
     </div>
     <!-- Entries Column -->
     <div class="col-md-8 col-xs-12">
-      <!-- Main Image -->
-      <img class="img-responsive" src="photo.jpg" alt="sakura and I"><br>
-
       <div style="margin-top:3%; text-align:justify;">                
         <p>Hello!</p>
         <p>I am Wenjie Hua, a junior student at Wuhan University with a University of Notre Dame exchange, focusing on paleography, linguistics, and history.  Previously, I served as an editorial assistant on science and humanities at <a href="http://www.cspm.com.cn/home2017/AU2017/">Science Press</a>. Academically, I worked on code-switching at <a href="https://psychology.nd.edu/about/research-labs/language-lab/">Eberhard Language Lab</a>, did research on legal history and politics, advised by <a href="https://history.nd.edu/people/liang-cai/">Dr. Liang Cai</a>, and led projects on ancient language processing and computer vision for ancient printings, supervised by <a href="https://dr.ntu.edu.sg/cris/rp/rp02596">Dr. Yinzong Wei</a> at WHU Ancient Books Institute.</p>
-        <p>Beyond academics, I served as Vice President of the Chunying (萅英) Poetry Club, and my poems were published in several literary journals. Also, I am a loyal outdoor enthusiast, mountain climbing and cave exploring are my favorites.</p>
+        <p>Beyond academics, I served as Vice President of the Chunying 萅英 Poetry Club, and my poems were published in several literary journals. Also, I am a loyal outdoor enthusiast, mountain climbing and cave exploring are my favorites.</p>
       </div> 
       <div class="col">    
         <h2 id="papers" style="margin-top: 10px;">Papers</h2>
         <p>
-          <b>Logits-Constrained Framework with RoBERTa for Ancient Chinese NER</b> - Wenjie Hua, Shenghan Xu, NAACL 2025, 2nd Ancient Language Processing, Tech report
+          <b>Logits-Constrained Framework with RoBERTa for Ancient Chinese NER</b> - Wenjie Hua, Shenghan Xu, NAACL 2025, 2nd Ancient Language Processing
         </p>
         <p>
-          <b>The Historian’s fingerprint: A Computational Stylometric Study of the Zuo Commentary and Discourses of the States</b> - Wenjie Hua, NAACL 2025, 2nd Ancient Language Processing, Poster
+          <b>The Historian’s Fingerprint: A Computational Stylometric Study of the Zuo Commentary and Discourses of the States</b> - Wenjie Hua, NAACL 2025, 2nd Ancient Language Processing
         </p>
         <p>
-          <b>Semantic Progression and Image-schema Transformation of Ideograms in Oracle Bones and Bronze Inscriptions</b> - Wenjie Hua, 6th International Conference on Cognitive Semantics, Oral presentation
+          <b>Semantic Progression and Image-schema Transformation of Ideograms in Oracle Bones and Bronze Inscriptions</b> - Wenjie Hua, 6th International Conference on Cognitive Semantics
         </p>
         <p>
-          <b>Invoke Immortals: A Social History of Jianghuai Built on Divination and Techniques (1900 - 1949)</b> - Wenjie Hua, 73rd Midwest Conference on Asian Affairs, Oral presentation
+          <b>Invoke Immortals: A Social History of Jianghuai Built on Divination and Techniques (1900 - 1949)</b> - Wenjie Hua, 73rd Midwest Conference on Asian Affairs
         </p>
       </div>
       <div class="col">    
@@ -85,7 +102,7 @@
 <!-- /.container -->
 
 <!-- Other people may like it too! -->
-<a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
+<a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Template by Plain Academic</a> 
 
 </body>
 </html>
